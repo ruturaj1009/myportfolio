@@ -148,6 +148,12 @@ button:hover {
     padding: 100px 0px;
     align-items: center;
 }
+.project {
+    background: #101010;
+    width: 100%;
+    padding: 100px 0px;
+    align-items: center;
+}
 
 .title h2 {
     color: white;
@@ -168,6 +174,17 @@ button:hover {
     width: 335px;
     padding: 15px 20px;
     background: #101010;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.altcard {
+    height: 335px;
+    width: 300px;
+    padding: 15px 20px;
+    background: #191919;
     border-radius: 20px;
     margin: 15px;
     position: relative;
@@ -199,7 +216,18 @@ h5 {
 
 .card .button {
     margin-top: 25px;
-    background-color: #f9004d;
+    background-color:#f9004d ;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.altcard .button {
+    margin-top: 25px;
+    background-color: rgba(6, 52, 204, 0.76);
     color: white;
     text-decoration: none;
     border: 2px solid transparent;
@@ -211,13 +239,26 @@ h5 {
 
 .card .button:hover {
     background-color: transparent;
+    border: 2px solid rgba(6, 52, 204, 0.76);
+    cursor: pointer;
+}
+.altcard .button:hover {
+    background-color: transparent;
     border: 2px solid #f9004d;
     cursor: pointer;
 }
 
 .query {
     background: #101010;
-    height: 80vh;
+    height: 100vh;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.query1 {
+    background: #191919;
+    height: 100vh;
     text-align: center;
     align-items: center;
     display: flex;
@@ -428,7 +469,7 @@ footer {
     position: relative;
     width: 100%;
     height: 250px;
-    background: #191919;
+    background: #101010;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -532,7 +573,7 @@ form button {
 
 .copy {
     height: 4vh;
-    background-color: #191919;
+    background-color: #101010;
     color: #f9004d;
     text-align: center;
 }
