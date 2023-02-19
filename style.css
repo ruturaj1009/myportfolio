@@ -239,12 +239,12 @@ h5 {
 
 .card .button:hover {
     background-color: transparent;
-    border: 2px solid rgba(6, 52, 204, 0.76);
+    border: 2px solid #f9004d ;
     cursor: pointer;
 }
 .altcard .button:hover {
     background-color: transparent;
-    border: 2px solid #f9004d;
+    border: 2px solid rgba(6, 52, 204, 0.76);
     cursor: pointer;
 }
 
